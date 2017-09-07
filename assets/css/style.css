@@ -1,0 +1,486 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto|Slabo+27px');
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: Slabo, 'Times New Roman', Times, serif;
+    color: #777777;
+    background-color: #888888;
+    background-image: url("../images/white-paper-background.jpg");
+    background-repeat: repeat;
+    width: 100%;
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    font-family: Roboto, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: teal;
+}
+
+p { font-size: 16px; }
+
+h1 { font-size: 32px; }
+h2 { font-size: 30px; }
+h3 { font-size: 32px; }
+h4 { font-size: 30px; }
+h5 { font-size: 28px; }
+h6 { font-size: 26px; }
+h1 > a { text-decoration: none; color: white; }
+header {
+    width: 100%;
+    background-color: white;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    width: 960px;
+    padding: 0 20px;
+    margin: 0 auto -50px auto;
+    
+}
+.inner-wrapper {
+    min-height: calc(100vh - 30px);
+}
+.header-wrapper {
+    width: 960px;
+    margin: 0 auto;
+}
+
+#headerSection {
+    border-bottom: 2px solid #cccccc;
+    background-color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.portName {
+    height: 100%;
+    background-color: teal;
+}
+
+header {
+    width: 100%;
+    /*box-sizing: border-box; */
+}
+
+header h1 {
+    color: white;
+    background-color: teal;
+    padding: 15px;
+    display: inline-block;
+    width: 360px;
+    text-align: center;
+}
+
+
+/*header nav { display: inline-block; vertical-align: middle;  }*/
+
+header nav {
+    display: inline-block;
+    width: 565px;
+    text-align: right;
+}
+
+nav>ul li {
+    padding: 10px;
+    text-align: right;
+    display: inline-block;
+    border-right: 1px solid #ddd;
+}
+
+nav>ul li:last-child {
+    border-right: none;
+}
+
+nav>ul li>a {
+    color: #999999;
+    font-weight: 900;
+    text-decoration: none;
+    transition: 200ms ease-in all;
+    -webkit-transition: 200ms ease-in all;
+    -moz-transition: 200ms ease-in all;
+    -o-transition: 200ms ease-in all;
+}
+
+nav>ul li>a:hover {
+    color: #eee;
+    text-shadow: 0 0 2px black;
+}
+
+.wrapper {
+    display: table;
+}
+
+.mainPageInfo,
+.contactSection {
+    float: left;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    box-sizing: border-box;
+    padding: 15px;
+}
+.mainPageInfo {
+    width: 650px;
+    line-height: 24px;
+}
+
+.mainPageInfo p {
+    margin-top: 10px;
+}
+
+#mainPageImage {
+    width: 200px;
+    height: auto;
+    border-radius: 150%;
+    border: 5px solid white;
+    float: left;
+    box-shadow: 0 0 4px black;
+    margin: 0 15px 7px 0;
+}
+
+.contactSection {
+    width: 270px;
+    margin-left: 35px;
+}
+
+form {
+    padding: 25px;
+    padding-bottom: 0;
+    border: 1px solid #eee;
+}
+
+.form-group {
+    margin: 10px 0 10px 0;
+}
+
+label.form-label {
+    line-height: 2em;
+    font-size: 1.3em;
+}
+
+input[type='text'],
+input[type='email'] {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+textarea {
+    border-radius: 5px;
+    width: 100%;
+    height: 125px;
+    box-sizing: border-box;
+}
+
+input[type='submit'] {
+    padding: 10px 20px;
+    background-color: teal;
+    color: white;
+    font-weight: 900;
+}
+
+input[type='submit']:hover {
+    background-color: #006d6d;
+    color: #c46a21;
+}
+
+.portfolioSquare {
+    float: left;
+    margin: 20px 0 0 20px;
+    box-sizing: border-box;
+    border: 2px solid #dddddd;
+}
+
+.portDescription {
+    display: none;
+    transition: 200ms all ease-in;
+}
+
+.portfolioSquare:hover>.portDescription {
+    display: block;
+}
+
+.portfolioSquare a {
+    color: white;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    padding: 15px 0;
+    background-color: teal;
+    font-size: 1.3em;
+    margin-top: 200px;
+    width: 100%;
+    box-sizing: border-box;
+    transition: 200ms all ease-in;
+    -webkit-transition: 200ms ease-in all;
+    -moz-transition: 200ms ease-in all;
+    -o-transition: 200ms ease-in all;
+}
+
+.portfolioSquare a:hover {
+    color: #ddd;
+    text-shadow: 0 0 2px black;
+}
+
+.portImage {
+    background-size: cover;
+    height: 275px;
+    width: 275px;
+}
+
+.brickBreaker {
+    background-image: url("../images/BrickBash.png");
+}
+
+.charHomeBuild {
+    background-image: url("../images/charHomeBuild.png");
+    background-size: 275px 275px;
+}
+
+.SOBanner {
+    background-image: url("../images/SOBanner.png");
+}
+
+.weDoTech {
+    background-image: url("../images/weDoTech.PNG");
+    background-size: 275px 275px;
+}
+.hangmanGame {
+    background-image: url("../images/hangmanGame.png");
+    background-size: 275px 275px;
+}
+
+
+ul.socialLinks img {
+    width: 64px;
+    height: 64px;
+}
+
+ul.socialLinks li {
+    display: inline-block;
+    padding: 5px;
+}
+
+
+/* CLEARFIX FROM BOOTSTRAP */
+
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    display: inline-block;
+}
+
+.clearfix {
+    display: block;
+}
+
+
+/* END CLEARFIX */
+
+
+footer {
+    box-sizing: border-box;
+    background-color: #666666;
+    border-top: 5px solid teal;
+    padding: 20px;    
+    height: 50px;
+}
+
+footer {
+    color: #fff;
+    text-align: center;
+}
+
+.margin-bottom-20 {
+    margin-bottom: 20px;
+}
+.margin-bottom-40{ 
+    margin-bottom: 40px;
+}
+/* Footer fix for 1366 width screens */
+@media screen and (max-width: 1366px) {
+    footer {
+        margin-top: 50px;
+    }
+}
+
+/* Responsive Code */
+@media screen and (max-width: 980px)
+{
+    body { width: 100vw; }
+    header { position: fixed; width: 100vw; box-shadow: 2px 0 2px black; }
+    header nav { width: auto; float: right; padding-top: 15px;}
+    .wrapper, .header-wrapper { width: 820px; }
+
+    .wrapper { padding-top: 80px;  display: table;}
+    
+    .mainPageInfo { width: 500px;}
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        width: 100vw;
+        box-sizing: border-box;
+    }
+    h1 { font-size: 26px; }
+    h2 { font-size: 24px; }
+    h3 { font-size: 22px; }
+    h4 { font-size: 20px; }
+    h5 { font-size: 18px; }
+    h6 { font-size: 16px; }
+    header {
+        padding: 0;
+        position: fixed;
+        box-shadow: 2px 0 2px black; 
+        
+    }
+    header h1 {
+        width: 100%;
+        box-sizing: border-box;
+    }
+    header nav {
+        display: inline-block;
+        text-align: center;
+        float: none;
+        width: 100vw;
+    }
+    .header-wrapper {
+        width: 100vw;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .wrapper {
+        width: 100%;
+        padding: 0;
+        padding-top: 120px;
+        margin: 0;
+        height: auto;
+    }
+
+    nav>ul li {
+        display: inline-block;
+        padding: 10px;
+        border-right: 1px solid #ddd;
+    }
+    nav>ul li:last-child {
+        border-right: none;
+    }
+    nav>ul li>a {
+        color: #999999;
+        font-weight: 900;
+        text-decoration: none;
+        transition: 200ms ease-in all;
+        -webkit-transition: 200ms ease-in all;
+        -moz-transition: 200ms ease-in all;
+        -o-transition: 200ms ease-in all;
+        font-size: 14px;
+    }
+    nav>ul li>a:hover {
+        color: #eee;
+        text-shadow: 0 0 2px black;
+    }
+    #mainSection>.mainPageInfo {
+        margin: 0 auto;
+    }
+    .mainPageInfo,
+    .contactSection {
+        float: none;
+        background-color: #ffffff;
+        border: 2px solid #dddddd;
+        box-sizing: border-box;
+        padding: 15px;
+        width: 95vw;
+        font-size: 14px;
+    }
+    .contactSection {
+        margin: 20px auto;
+        width: 85%;
+    }
+    .contactSection>ul {
+        text-align: center;
+    }
+    .mainPageInfo {
+        line-height: 24px;
+    }
+    #mainPageImage {
+        width: 100px;
+        height: auto;
+        float: left;
+        box-shadow: 0 0 4px black;
+        margin: 0 15px 7px 0;
+    }
+    .portfolioSquare {
+        float: none;
+        width: 275px;
+        margin: 10px auto;
+    }
+    .portDescription {
+        display: none;
+        transition: 200ms all ease-in;
+    }
+    .portfolioSquare:hover>.portDescription {
+        display: block;
+    }
+    .portfolioSquare a {
+        color: white;
+        display: inline-block;
+        text-align: center;
+        text-decoration: none;
+        padding: 15px 0;
+        background-color: teal;
+        font-size: 1.3em;
+        margin-top: 200px;
+        width: 100%;
+        box-sizing: border-box;
+        transition: 200ms all ease-in;
+        -webkit-transition: 200ms ease-in all;
+        -moz-transition: 200ms ease-in all;
+        -o-transition: 200ms ease-in all;
+    }
+    .portfolioSquare a:hover {
+        color: #ddd;
+        text-shadow: 0 0 2px black;
+    }
+    .portImage {
+        background-size: cover;
+        height: 275px;
+        width: 275px;
+    }
+    .brickBreaker {
+        background-image: url("../images/BrickBash.png");
+    }
+    .charHomeBuild {
+        background-image: url("../images/charHomeBuild.png");
+        background-size: 275px 275px;
+    }
+    .SOBanner {
+        background-image: url("../images/SOBanner.png");
+    }
+    .weDoTech {
+        background-image: url("../images/weDoTech.PNG");
+        background-size: 275px 275px;
+    }
+    .hangmanGame {
+        background-image: url("../images/hangmanGame.png");
+        background-size: 275px 275px;
+    }
+}
+
+@media screen and (max-width: 640px)
+{
+    header { 
+        position: fixed; 
+        box-shadow: 2px 0 2px black; 
+    }
+    .wrapper { padding-top: 120px;}
+    #contactSection { margin-top: 20px;}
+}
