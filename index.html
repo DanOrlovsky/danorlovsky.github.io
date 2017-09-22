@@ -6,70 +6,236 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="Author" content="Daniel Orlovsky" />
-    <meta name="Description" content="Daniel Orlovsky's Portfolio" />
-    <link href="assets/css/reset.css" rel="stylesheet" type="text/css" />
-    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+    <meta name="Description" content="Daniel Orlovsky's Github Landing Page" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M"
+        crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
 </head>
 
 <body>
-    <header>
-        <div class="header-wrapper">
-            <h1><a href="index.html">Daniel Orlovsky</a></h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">About <i class="fa fa-home"></i></a></li>
-                    <li><a href="portfolio.html">Portfolio <i class="fa fa-folder-open-o"></i></a></li>
-                    <li><a href="contact.html">Contact <i class="fa fa-address-card-o"></i></a></li>
-                </ul>
-            </nav>
+    <header id="header">
+        <div class="row d-flex h-100 background-overlay">
+            <div class="align-self-center">
+                <div class="header-wrapper">
+                    <div class="row">
+                        <div class="col-12">
+                            <h1>Daniel Orlovsky</h1>
+                            <h4>Driven by the desire to create.</h2>
+                                <h2><a href="http://danorlovsky.tech" class="btn btn-outline-light" id="cta-button">Visit CMS Portfolio</a></h2>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
-
-    <div class="wrapper">
-        <div class="inner-wrapper">
-            <section id="mainSection">
-                <div class="mainPageInfo">
-                    <h2 class="margin-bottom-20">About Me</h2>
+    <section id="git-projects">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="git-title">GitHub Projects</h3>
                     <hr />
-                    <img id="mainPageImage" src="assets/images/DanFamily.jpg" />
-                    <p>
-                        Pleased to meet you. My name is Daniel Orlovsky, and I am a full-stack developer. I live with my beautiful wife Jessica and
-                        my only child Lucas (who's simply adorable) in Charlotte, NC. Here is my home on the web to detail
-                        my wonderful (and sometimes chaotic) journey into the world of application-development.
-                    </p>
-                    <p>
-                        I use a combination of C#, ASP.NET (MVC or WebForms), Html5, and CSS3 to deliver feature-rich custom content management systems
-                        to each and every one of my clients.
-                    </p>
-                    <p>
-                        When I'm not steadily working for a client I like to take some time out and study game-programming architecture using various
-                        frameworks such as MonoGame and Direct X, or with development tools like Unity.
-                    </p>
-                    <p>
-                        I am currently expanding my skillset to include Javascript, where I will be focusing on technologies such as jQuery, NodeJs,
-                        ReactJs, Express Framework, and Express Handlebars view-engine.
-                    </p>
                 </div>
-            </section>
-            <aside id="contactSection">
-                <div class="contactSection">
-                    <h4>Connect with me</h4>
-                    <hr />
-                    <ul class="socialLinks">
-                        <li><a href="https://github.com/DannyRux" target="_blank"><img src="assets/images/github.png" /></a></li>
-                        <li><a href="https://www.linkedin.com/in/daniel-orlovsky-953281b9/" target="_blank"><img src="assets/images/linkedin.png" /></a></li>
-                        <li><a href="https://stackoverflow.com/users/4389062/dan-orlovsky" target="_blank"><img src="assets/images/stackoverflow.png" /></a></li>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 git-project">
+
+                    <div class="git-project-underlay">
+                        <h4>Center-complete Progress Bar</h4>
+                        <img src="assets/images/center-progress-bar.png" alt="Center Progress Bar project image" class="img-fluid" />
+                    </div>
+                    <div class="git-project-overlay">
+                        <h4>Center-complete Progress Bar</h4>
+                        <hr />
+                        <p>
+                            A simple javascript control that creates a progress bar with the characteristic of having 100% complete in the center. It
+                            was built to be easily embeddable.
+                        </p>
+                        <p>
+                            Priorities were simple customization and functionality, where increments are smooth but still easily manipulated.
+                        </p>
+                        <p>
+                            Live demo: <a href="https://danorlovsky.github.io/Center-Progress-Bar/" target="_blank">Link</a>
+                        </p>
+                        <p>
+                            Source: <a href="https://www.github.com/DanOrlovsky/Center-Progress-Bar/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 git-project">
+                    <div class="git-project-underlay">
+                        <h4>Hangman Game</h4>
+                        <img src="assets/images/hangman.png" alt="Center Progress Bar project image" class="img-fluid" />
+                    </div>
+                    <div class="git-project-overlay">
+                        <h4>Hangman Game</h4>
+                        <hr />
+                        <p>
+                            A themed javascript Hangman Game! Themed for programming, this game features a functional layout, handles spaces in words,
+                            keeps track of user wins, will never pick the same word twice, and is all around a good time.
+                        </p>
+                        <p>
+                            The task at hand was to develop the game as its' own object,
+                        </p>
+                        <p>
+                            Live demo: <a href="https://danorlovsky.github.io/Hangman-Game-Object/" target="_blank">Link</a>
+                        </p>
+                        <p>
+                            Source: <a href="https://www.github.com/DanOrlovsky/Hangman-Game-Object/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-12 col-sm-12 col-md-4 col-lg-4 git-project">
+                    <div class="git-project-underlay">
+                        <h4>8Bit Battlegrounds</h4>
+                        <img src="assets/images/8-bit-battlegrounds.png" alt="8 Bit Battlegrounds image" class="img-fluid" />
+                    </div>
+                    <div class="git-project-overlay">
+                        <h4>8Bit Battlegrounds</h4>
+                        <hr />
+                        <p>
+                            A simple yet wildly entertaining Javascript game. Please see the
+                            <a href="https://github.com/DanOrlovsky/week-4-game/">Readme</a> for gfx/sound credits.
+                        </p>
+                        <p>
+                            Fight your way through all your oppponents to become victorious!
+                        </p>
+                        <p>
+                            Live demo: <a href="https://danorlovsky.github.io/week-4-game/" target="_blank">Link</a>.
+                        </p>
+                        <p>
+                            Source: <a href="https://www.github.com/DanOrlovsky/week-4-game/" target="_blank">Link</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="quick-info">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 quick-blurb ">
+                    <i class="fa fa-mortar-board fa-5x"></i>
+                    <h2>Education / Experience</h2>
+                    <div class="row">
+                        <div class="col-12 col-sm-12 col-md-6 ">
+                            <ul class="page-list">
+                                <li>
+                                    <h4><a href="#" class="drop-page-bc">UNCC Coding Bootcamp 2017 - current</a></h4>
+                                    <ul class="page-list-drop-bc">
+                                        <li>Javascript</li>
+                                        <li>Node.js</li>
+                                        <li>React.js</li>
+                                        <li>Express</li>
+                                        <li>MongoDB</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-12 col-md-6">
+                            <ul class="page-list">
+                                <li>
+                                    <h4><a href="#" class="drop-page-st">Self Taught 2012 - current</a></h4>
+                                    <ul class="page-list">
+                                        <li>Proficient in C# (Backend and front end)</li>
+                                        <li>ASP.NET (WebForms & MVC)</li>
+                                        <li>N-Tier Application Design</li>
+                                        <li>Developing Content Management Systems</li>
+                                        <li>MSSQL</li>
+                                        <li>CSS Frameworks (i.e. Bootstrap & Grid)</li>
+                                        <li>HTML5</li>
+                                        <li>CSS 3</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-12">
+                            <ul class="page-list">
+                                <li>
+                                    <h4><a href="#" class="drop-page-brc">Brick Computer Science Institute 2002</a></h4>
+                                    <ul class="page-list-drop-brc">
+                                        <li>Studied Visual Basic</li>
+                                        <li>Studied Visual C++</li>
+                                        <li>Excelled in Advanced C++</li>
+                                        <li>Graduated on Deans List (4.0)</li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <p>
+                                Portfolio located at <a href="http://danorlovsky.tech/Portfolio">danorlovsky.tech/Portfolio</a>
+                            </p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="clearfix"></div>
+                <div class="col-12 col-sm-12 col-md-6 col-lg-6 col-xl-6 quick-blurb ">
+                    <i class="fa fa-user-circle-o fa-5x"></i>
+                    <h3>Personal Information</h3>
+                    <div class="row">
+                        <div class="col-12 col-sm-10 col-md-8 align-center">
+                            <p>
+                                With an inherent passion for programming, my goal is to become a professional software engineer, where I can utilize my technical
+                                aptititude, experience, and positive traits to solve problems presented to me in a rapid
+                                and efficient manner, while continuously feeding my desire to learn more about various programming
+                                technologies.
+                            </p>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <ul class="page-list">
+                                <li>Competent Programmer <i class="fa fa-check"></i></li>
+                                <li>Professional & Fun <i class="fa fa-check"></i></li>
+                                <li>Assertive <i class="fa fa-check"></i></li>
+                                <li>Goal Oriented <i class="fa fa-check"></i></li>
+                                <li>Self Motivated <i class="fa fa-check"></i></li>
+                                <li>Fast Learner <i class="fa fa-check"></i></li>
+                            </ul>
+                        </div>
+                        <div class="col-12 col-sm-6">
+                            <ul class="page-list">
+                                <li>Energetic <i class="fa fa-check"></i></li>
+                                <li>Desire to Learn <i class="fa fa-check"></i></li>
+                                <li>Leadership Skills <i class="fa fa-check"></i></li>
+                                <li>Well Spoken <i class="fa fa-check"></i></li>
+                                <li>Team Player <i class="fa fa-check"></i></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-sm-4 center-column">
+                    <h6>Page Credits</h6>
+                    <ul class="page-list">
+                        <li><a href="https://getbootstrap.com/">Bootstrap 4</a></li>
+                        <li><a href="http://http://fontawesome.io/">Font Awesome</a></li>
                     </ul>
                 </div>
-            </aside>
+                <div class="col-12 col-sm-4 center-column">
+                    <h6>Links</h6>
+                    <ul class="page-list">
+                        <li><a href="http://danorlovsky.tech">Portfolio / Blog</a></li>
+                        <li><a href="http://github.com/DanOrlovsky/">My Github</a></li>
+                        <li><a href="http://danorlovsky.github.io/Center-Progress-Bar/">Centered Progress Bar</a></li>
+                        <li><a href="https://danorlovsky.github.io/week-4-game/">8 Bit Battlegrounds</a></li>
+                    </ul>
+                </div>
+                <div class="col-12 col-sm-4 center-column">
+                    <h6>&copy;2017 Dan Orlovsky</h6>
+                </div>
+            </div>
         </div>
-    </div>
-    
-    <footer>
-        &copy;Copyright 2017 - Daniel Orlovsky
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
