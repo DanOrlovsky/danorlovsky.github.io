@@ -135,15 +135,11 @@ ul.page-list-drop {
 }
 
 
-/*ul.page-list-drop-bc, ul.page-list-drop-brc, ul.page-list-drop-st {
-    height: 0;
-    overflow: hidden;
-    
-}*/
 
 a {
     transition: all 500ms;
     font-weight: 700;
+    text-shadow: 0;
 }
 
 a:hover {
