@@ -26,18 +26,18 @@ h1 {
 }
 
 header {
-    background-image: url('../images/headerBackground.jpg');
-    background-position-y: -150px;
-    background-size: cover;
+    background-image: url('../images/git-bg.jpg');
+    background-size: stretch;
     background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
-    height: 75vh;
+    height: 65vh;
     overflow: hidden;
     box-shadow: 1px 0 2px black;
+    text-shadow: -1px 0 2px black, 1px 0 2px black, 0 1px 2px black, 0 -1px 2px black;
 }
 
-#git-projects {
+#git-projects, #more-git-projects {
     padding: 20px 0;
     /*background-image: url('../images/git-bg.jpg');
     background-size: cover;
@@ -63,10 +63,10 @@ h3.git-title {
 }
 
 #quick-info {
-    background-color: steelblue/*#D9E9FF*/
-    ;
-    background-image: url('../images/git-bg.jpg');
-    background-attachment: center;
+    background-color: steelblue;
+    background-image: url('../images/headerBackground.jpg');
+    background-position-y: -150px;
+    background-attachment: fixed;
     background-size: cover;
 }
 
