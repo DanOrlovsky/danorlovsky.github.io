@@ -140,10 +140,12 @@ a {
     transition: all 500ms;
     font-weight: 700;
     text-shadow: 0;
+    color: #0e1a24;
 }
 
 a:hover {
     text-shadow: none;
+    text-decoration: underline;
 }
 
 ul.page-list>li>h4>a {
