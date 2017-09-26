@@ -139,7 +139,7 @@ ul.page-list-drop {
 a {
     transition: all 500ms;
     font-weight: 700;
-    text-shadow: 0;
+    text-shadow: none;
     color: #0e1a24;
 }
 
