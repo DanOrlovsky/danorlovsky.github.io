@@ -23,7 +23,7 @@
                         <div class="col-12">
                             <h1>Daniel Orlovsky</h1>
                             <h4>Driven by the desire to create.</h2>
-                                <h2><a href="http://danorlovsky.tech" class="btn btn-outline-light" id="cta-button">Visit CMS Portfolio</a></h2>
+                                <h2><a href="" class="btn btn-outline-light" id="cta-button">Visit Portfolio</a></h2>
                         </div>
                     </div>
                 </div>
@@ -33,7 +33,7 @@
     <section id="git-projects">
         <div class="container-fluid">
             <div class="row">
-                <div class="col-12">
+                <div class="col-12" id="git-projects">
                     <h3 class="git-title">GitHub Projects</h3>
                     <hr />
                 </div>
@@ -308,7 +308,7 @@
                     </ul>
                 </div>
                 <div class="col-12 col-sm-4 center-column">
-                    <h6>&copy;2017 Dan Orlovsky</h6>
+                    <h6>&copy;2018 Dan Orlovsky</h6>
                     <h6><a href="mailto:dangorlov@yahoo.com">dangorlov@yahoo.com</a></h6>
                 </div>
             </div>
@@ -319,6 +319,16 @@
         crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1"
         crossorigin="anonymous"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $("#cta-button").on("click", function (e) {
+                e.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $("#git-projects").offset().top
+                }, 1000);
+            })
+        })
+    </script>
 </body>
 
 </html>
