@@ -4,7 +4,7 @@ title:  "Domain Models Without Set Properties"
 date:   2020-12-09 10:45:47 -0400
 categories: ef-core
 ---
-I ran into a situation where I needed to create a domain model with a property that only allowed a getter-property.
+I ran into a situation where I needed to create a domain model with a property that only allowed for getter-access.
 
 Imagine the scenario: you have an object where a property represents a temporal state: one that cannot change.  In my case, I needed to store a Payload that was recieved in the body of a request at the time it was received.  Because of this scenario, I can't allow this property to _ever_ be changed.  But how?
 
