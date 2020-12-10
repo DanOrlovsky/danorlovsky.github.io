@@ -22,7 +22,7 @@ public sealed class RequestDetails
 
     public RequestDetails(string payload)
     {
-        Id = new Guid.NewGuid();
+        Id = Guid.NewGuid();
         _payload = payload;
     }
 }
