@@ -36,7 +36,7 @@ For a quick example of a useful extension, go to the explorer and search "Beauti
 Now: 
 
 1. Create a new file (ctrl-n)
-2. At the bottom-right hand corner, you click the label that says: "plain text"
+2. At the bottom-right hand corner, click the label that says: "plain text"
 3. In the search bar that opens up, search and select "html"
 4. Copy and paste this code directly into the editor:
 
