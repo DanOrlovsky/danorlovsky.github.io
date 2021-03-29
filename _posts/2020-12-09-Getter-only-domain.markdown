@@ -28,7 +28,7 @@ public sealed class RequestDetails
 }
 ```
 
-Unfortunately, it doesn't work automagically, and we do have utilize the modelBuilder by overriding the ```OnModelCreating``` method from the DbContext, like so:
+Unfortunately, it doesn't work automagically, and we do have to utilize the modelBuilder by overriding the ```OnModelCreating``` method from the DbContext, like so:
 
 ```csharp
 protected override void OnModelCreating(ModelBuilder modelBuilder)
