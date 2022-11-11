@@ -192,11 +192,10 @@ content:
     content: | # this will include new lines to allow paragraphs
       - Software teams should be a consistent collaboration of business and technical, at all levels.  This includes even the early stages of planning: *before* User Stories are written
       - There should be a shared language between Engineering and Business.  i.e.: if they're known to the business as "accounts", engineering should not refer to them as "tenants"
-      - Engineers should have an in-depth understanding of the system they are building as well as the features they are providing. 
+      - Engineers should have an in-depth understanding of the system they are building as well as the features they are providing
       - There should be tests ran at every single phase of the development life cycle.  No excuses
       - Projects should be organized by Domain, not function (and Domain Driven Design should be pursued)
-      - Sql should be persistence only (this should be pursued)
-      - Async all the way
+      - Sql should be persistence only (or at least this should be pursued)
 
 # Footer
 footer_show_references: true
