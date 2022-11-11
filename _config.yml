@@ -121,7 +121,7 @@ content:
           - Act as an active participant in all team meetings (scrum rituals).
       - layout: left
         title: Trilogy Education
-        sub_title: Fullstack Bootcamp TA
+        sub_title: Full Stack Bootcamp TA
         caption: 02/2019 to 08/2019 
         quote: >
           Provider of IT and Software Engineering Education Services
@@ -142,6 +142,24 @@ content:
           - Selected contracts and fulfilled work to help build out proof of concept text-based commerce
           - Successfully built PoC that generated full websites for new Tenants utilizing Netlify's API.
           - Actively and collaboratively worked with team engineers to connect moving pieces to create one cohesive and scalable platform.
+      - layout: left
+        title: Self-Starter (Contractor)
+        sub_title: Website and CMS Developer
+        caption: 2013 to 2017
+        quote: >
+          Text-based Commerce and Services Startup
+        description: | # this will include new lines to allow paragraphs
+          Offered website creation services to local small businesses with the goal of helping them gain an online presence while giving myself
+          the opportunity to learn about creating applications.
+
+          I achieved going from Html/CSS static websites to creating content-driven applications, with a custom developed back end using .Net Framework and:
+
+          - C#
+          - ASP.NET MVC (some legacy WebForms as well)
+          - Entity Framework
+          - MsSql
+          - AspNet Identity
+
   - title: Education
     layout: list
     content:
@@ -170,16 +188,28 @@ content:
           Maintained a 4.0 GPA while learning Windows Applications Development in Visual Basic and C++.
 
           Light Java and MS Access Databases.
-  # - title: A Little More About Me
-  #   layout: text
-  #   content: | # this will include new lines to allow paragraphs
-  #     This is where you can write a little more about yourself. You could title this section **Interests** and include some of your other interests.
-
-  #     Or you could title it **Skills** and write a bit more about things that make you more desirable, like *leadership* or *teamwork*
+  - title: Engineering Philosophy
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+      - Software teams should be a consistent collaboration of business and technical, at all levels.  This includes even the early stages of planning, even before User Stories are written
+      - There should be a shared language between Engineering and Business.  i.e.: if they're known to the business as "accounts", engineering should not refer to them as "tenants"
+      - Engineers should have an in-depth understanding of the system they are building as well as the features they are providing. 
+      - There should be tests ran at every single phase of the development life cycle.  No excuses
+      - Projects should be organized by Domain, not function (and Domain Driven Design should be pursued)
+      - Sql should be persistence only (this should be pursued)
+      - Async all the way
 
 # Footer
 footer_show_references: true
 # references_title: References on request (Override references text)
+
+# Build settings
+# theme: modern-resume-theme (Use this is you are hosting your resume yourself)
+# remote_theme: sproogen/modern-resume-theme (Use this if you are hosting your resume on GitHub)
+
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
 # Build settings
 # theme: modern-resume-theme (Use this is you are hosting your resume yourself)
