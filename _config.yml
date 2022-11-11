@@ -143,17 +143,16 @@ content:
           - Successfully built PoC that generated full websites for new Tenants utilizing Netlify's API.
           - Actively and collaboratively worked with team engineers to connect moving pieces to create one cohesive and scalable platform.
       - layout: left
-        title: Self-Starter (Contractor)
+        title: Freelance Worker
         sub_title: Website and CMS Developer
         caption: 2013 to 2017
         quote: >
-          Text-based Commerce and Services Startup
+          Offering web-services to local businesses in the Charlotte market
         description: | # this will include new lines to allow paragraphs
-          Offered website creation services to local small businesses with the goal of helping them gain an online presence while giving myself
-          the opportunity to learn about creating applications.
-
-          I achieved going from Html/CSS static websites to creating content-driven applications, with a custom developed back end using .Net Framework and:
-
+          Offered inexpensive web-services with the trade-off being that I was still in the process of learning a lot about web and application design.
+          
+          Applications built would be their own custom Content Management System - allowing the client to make changes to their site, directly from their site.
+          All built with their technical proficiency in mind.
           - C#
           - ASP.NET MVC (some legacy WebForms as well)
           - Entity Framework
