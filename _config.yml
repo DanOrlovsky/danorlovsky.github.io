@@ -50,7 +50,7 @@ linkedin_username: dan-orlovsky
 
 # About Section
 # about_title: About Me (Use this to override about section title)
-about_profile_image: images/dan_orlovsky.jpg
+about_profile_image: images/fam.jpg
 about_content: | # this will include new lines to allow paragraphs
   Detail-oriented engineer with a proven track-record for working with business stakeholders to recommend ideal solutions tailored to solve specific business requirements. 
   Strong emphasis on SOLID, bug free, and fully tested code. Collaborative-approach evangelist. Life-long coding enthusiast. Strong and open communicator.  
