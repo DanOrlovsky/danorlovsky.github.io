@@ -21,7 +21,7 @@ darkmode: never
 # Social links
 ##twitter_username: jekyllrb
 github_username:  DanOrlovsky
-stackoverflow_username: 4389062/dan-orlovsky
+stackoverflow_username: dan-orlovsky
 ##dribbble_username: jekyll
 ##facebook_username: jekyll
 ##flickr_username: jekyll
@@ -162,7 +162,7 @@ content:
   - title: Education
     layout: list
     content:
-      - layout: top-left
+      - layout: left
         title: UNCC Charlotte
         sub_title: Full Stack Web Development (Certified)
         caption: 08/2017 to 04/2018
@@ -177,7 +177,7 @@ content:
 
           - Awarded Most Entertaining project for *Food Truck Finder*: an app that used Geo-Spatial querying on MongoDb that would help determine the closest food truck
           to your current location.
-      - layout: top-left
+      - layout: left
         title: Brick Computer Science Institute
         sub_title: Programming - IT Track
         caption: 01/2001 to 03/2002
