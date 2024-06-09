@@ -66,10 +66,10 @@ content:
         <div class="container text-center" style="font-size: 16px">
           <div class="col-xs-12 col-lg-6" style="margin: auto">
             <ul class="skills-list">
-              <li>C#</li>
-              <li>netcore3.1, .net5.0, .net6.0</li>
+              <li>C# latest</li>
+              <li>.net8.0</li>
               <li>Javascript/Typescript</li>
-              <li>Angular 6, 8, 12+</li>
+              <li>Angular 17+</li>
               <li>Azure</li>
               <ul class="skills-list">
                 <li>Service Fabric</li>
@@ -106,9 +106,20 @@ content:
     layout: list
     content:
       - layout: left
+        title: DNP IAM
+        sub_title: Senior Software Engineer
+        caption: 01/2022 to current 
+        quote: >
+          A photo, imaging, and memories provider
+        description: | # this will include new lines to allow paragraphs
+          - Maintain existing software products
+          - Rapidly prototype and execute business ideas to determine project viability
+          - Prototyped cloud services for a flagship product in a production ready manner
+          - Build and maintain data-reporting pipelines with the intent of gathering data from various sources to tell a story.
+      - layout: left
         title: Agdata
         sub_title: Software Design Engineer II
-        caption: 06/2018 to Current 
+        caption: 06/2018 to 01/2022 
         quote: >
           Leading Agricultural data-services company
         description: | # this will include new lines to allow paragraphs
