@@ -7,7 +7,7 @@ version: 2
 
 # Personal info
 name: Dan Orlovsky
-title: Software Engineer, aspiring Architect
+title: Senior Software Engineer
 email: dan.g.orlovsky@gmail.com
 # email_title: Email (Email title override)
 ### phone: Your phone number (optional)
@@ -53,7 +53,7 @@ linkedin_username: dan-orlovsky
 about_profile_image: images/dan_orlovsky.jpg
 about_content: | # this will include new lines to allow paragraphs
   Detail-oriented engineer with a proven track-record for working with business stakeholders to recommend ideal solutions tailored to solve specific business requirements. 
-  Strong emphasis on SOLID, bug free, and fully tested code. Collaborative-approach evangelist. Life-long coding enthusiast. Strong and open communicator.  
+  Strong emphasis on SOLID, bug free, and fully tested code. Collaborative-approach evangelist. Life-long coding enthusiast. Strong and open communicator.
 
   ---
   "*Always check in code a little better than when you checked it out.*"  
@@ -69,9 +69,10 @@ content:
               <li>C# latest</li>
               <li>.net8.0</li>
               <li>Javascript/Typescript</li>
-              <li>Angular 17+</li>
+              <li>Angular 18</li>
               <li>Azure</li>
               <ul class="skills-list">
+                <li>App Services</li>
                 <li>Service Fabric</li>
                 <li>ServiceBus</li>
                 <li>DevOps</li>
@@ -92,6 +93,7 @@ content:
                 <li>MS Test</li>
                 <li>Jasmine / Karma</li>
                 <li>Moq</li>
+                <li>NSubstitute</li>
               </ul>
               <li>Domain Driven Design</li>
               <li>Mediator / Messaging Pattern</li>
@@ -112,6 +114,7 @@ content:
         quote: >
           A photo, imaging, and memories company
         description: | # this will include new lines to allow paragraphs
+          - Worked with a team to create a unified 3.0 version of software, consolidating two separate codebases for Mac and Windows into a single, cross-platform codebase. This streamlined release management, ensuring simultaneous feature updates and consistent versioning across both platforms.
           - Maintain existing software products
           - Rapidly prototype and execute business ideas to determine project viability
           - Prototyped cloud services for a flagship product in a production ready manner
