@@ -53,10 +53,7 @@ linkedin_username: dan-orlovsky
 about_profile_image: images/dan_orlovsky.jpg
 about_content: | # this will include new lines to allow paragraphs
   Detail-oriented engineer with a proven track-record for working with business stakeholders to recommend ideal solutions tailored to solve specific business requirements. 
-  Strong emphasis on SOLID, bug free, and fully tested code. Collaborative-approach evangelist. Life-long coding enthusiast. Strong and open communicator.
-
-  ---
-  SOLID and OOP should NOT be principles only thought of during interviews and whiteboarding sessions.
+  Strong understanding of Object Oriented Programming with SOLID application.  Trust - but Unit Test to verify.  Life-long coding enthusiast. Strong and open communicator.
 
   ---
   "*Always check in code a little better than when you checked it out.*"  
@@ -114,7 +111,7 @@ content:
       - layout: left
         title: DNP IAM
         sub_title: Senior Software Engineer
-        caption: 01/2022 to current 
+        caption: 01/2023 to current 
         quote: >
           A photo, imaging, and memories company
         description: | # this will include new lines to allow paragraphs
@@ -126,7 +123,7 @@ content:
       - layout: left
         title: Agdata
         sub_title: Software Design Engineer II
-        caption: 06/2018 to 01/2022 
+        caption: 06/2018 to 01/2023 
         quote: >
           Leading Agricultural data-services company
         description: | # this will include new lines to allow paragraphs
