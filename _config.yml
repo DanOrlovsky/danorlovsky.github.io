@@ -1,59 +1,18 @@
-# Site
-## repository: Git repository where your resume will be hosted, only required if you are hosting on GitHub (eg. sproogen/modern-resume-theme)
-# favicon: Directory of your favicon (eg. images/favicon.ico)(optional)
-
-# Content configuration version
 version: 2
-
-# Personal info
 name: Dan Orlovsky
 title: Senior Software Engineer
 email: dan.g.orlovsky@gmail.com
-# email_title: Email (Email title override)
-### phone: Your phone number (optional)
-# phone_title: Phone (Phone title override)
-####website: danorlovsky.github.io
-# website_title: Web (Website title override)
-
 # Dark Mode (true/false/never)
 darkmode: never
 
-# Social links
-##twitter_username: jekyllrb
 github_username:  DanOrlovsky
 stackoverflow_username: dan-orlovsky
-##dribbble_username: jekyll
-##facebook_username: jekyll
-##flickr_username: jekyll
-##instagram_username: jekyll
 linkedin_username: dan-orlovsky
-##xing_username: jekyll
-##pinterest_username: jekyll
-##youtube_username: jekyll
-##orcid_username: 0000-0000-0000-0000
-##googlescholar_username: D847cGsAAAAJ
 
-# Additional icon links
-# # # additional_links:
-# # # - title: Link name
-# # #   icon: Font Awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-# # #   url: Link url (eg. https://google.com)
-# - title: another link
-#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&s=brands&m=free)
-#   url: Link url (eg. https://google.com)
-
-# Google Analytics and Tag Manager
-# Using more than one of these may cause issues with reporting
-# gtm: "GTM-0000000"
-# gtag: "UA-00000000-0"
-# google_analytics: "UA-00000000-0"
-
-# About Section
-# about_title: About Me (Use this to override about section title)
 about_profile_image: images/dan_orlovsky.jpg
 about_content: | # this will include new lines to allow paragraphs
   Detail-oriented engineer with a proven track-record for working with business stakeholders to recommend ideal solutions tailored to solve specific business requirements. 
-  Strong understanding of Object Oriented Programming with SOLID application.  Trust - but Unit Test to verify.  Life-long coding enthusiast. Strong and open communicator.
+  Strong emphasis on SOLID, bug free, and fully tested code.  Understands the importance of architecture.  Collaborative-approach evangelist.  Life-long coding enthusiast. Strong and open communicator.
 
   ---
   "*Always check in code a little better than when you checked it out.*"  
@@ -66,42 +25,26 @@ content:
         <div class="container text-center" style="font-size: 16px">
           <div class="col-xs-12 col-lg-6" style="margin: auto">
             <ul class="skills-list">
-              <li>C# latest</li>
-              <li>net9.0 and previous</li>
-              <li>Javascript/Typescript</li>
+              <li>C# Latest</li>
+              <li>.Net 10 and previous</li>
+              <li>Angular 20+</li>
               <li>Blazor</li>
-              <li>Azure</li>
-              <ul class="skills-list">
-                <li>App Services</li>
-                <li>Service Fabric</li>
-                <li>ServiceBus</li>
-                <li>DevOps</li>
-                <li>App Config</li>
-                <li>Cosmos Db</li>
-                <li>Application Insights</li>
-              </ul>
-              <li>Sql Server (MS Sql)</li>
-              <li>NoSql (Mongo, RavenDb, Cosmos)</li>
+              <li>.Net Maui (including Hybrid)</li>
+              <li>Azure (DevOps and Services)</li>
+              <li>AI-Driven Development</li>
+              <li>Xaml/Html templating</li>
             </ul>
           </div>
 
           <div class="col-xs-12 col-lg-6">
             <ul class="skills-list">
+              <li>Modular Architecture</li>
+              <li>Clean/Onion Architecture</li>
+              <li>Hexagonal Architecture</li>
               <li>Domain Driven Design</li>
-              <li>Mediator / Messaging Pattern</li>
-              <li>Unit Testing</li>
-              <li>XAML (WPF)</li>
-              <ul class="skills-list">
-                <li>X Unit</li>
-                <li>MS Test</li>
-                <li>Jasmine / Karma</li>
-                <li>Moq</li>
-                <li>NSubstitute</li>
-              </ul>
-              <li>Event Sourcing + CQRS</li>
-              <li>Microservice Architecture</li>
-              <li>Web API</li>
-              <li>Active Participant in Scrum Rituals</li>
+              <li>OOP in practice</li>
+              <li>Sql &amp; NoSql (persistence)</li>
+              <li>xUnit Testing</li>
             </ul>
           </div>
         </div>
@@ -109,17 +52,30 @@ content:
     layout: list
     content:
       - layout: left
+        title: Aderis Energy
+        sub_title: Senior Software Engineer
+        caption: 04/2026 to current
+        description: | # this will include new lines to allow paragraphs
+          - Approach AI-assisted development from an architectural standpoint: direct Claude Code across application layers, review generated code, and enforce separation of concerns and OOP/SOLID principles so AI accelerates delivery without compromising design integrity.
+          - Introduced Clean Architecture guidelines to segregate business logic that had been sprinkled across UI, service, and data layers, establishing clear boundaries and single-responsibility throughout the codebase.
+          - Established pipeline-based CI/CD with automated unit test gates, replacing manual command-line deployments and tag-based releases that risked losing the source behind production builds.
+          - Build and maintain features across the C#/.NET, Angular, and Blazor stack, using AI as a force multiplier for producing well-built, thoroughly-tested applications faster.
+      - layout: left
         title: DNP IAM
         sub_title: Senior Software Engineer
-        caption: 01/2023 to current 
+        caption: 01/2023 to 03/2026
         quote: >
           A photo, imaging, and memories company
         description: | # this will include new lines to allow paragraphs
-          - Worked with a team to create a unified 3.0 version of software, consolidating two separate codebases for Mac and Windows into a single, cross-platform codebase. This streamlined release management, ensuring simultaneous feature updates and consistent versioning across both platforms.
-          - Maintain existing software products
-          - Rapidly prototype and execute business ideas to determine project viability
-          - Prototyped cloud services for a flagship product in a production ready manner
-          - Build and maintain data-reporting pipelines with the intent of gathering data from various sources to tell a story.
+          - Incrementally transition a WPF application to Blazor by utilizing Blazor Web View for an uninterrupted user experience.
+          - Worked with a team to create a unified 3.0 version of software and successfully consolidated two separate code bases into one for Mac and Windows, using .Net Maui.
+          - Worked directly with teams to simplify application architecture.
+          - Converted Angular application to a modular architecture.
+          - Maintained team's core Angular / Asp .Net Core application.
+          - Built Microservices for consumption company-wide to create a source of truth for data shared across teams, improving marketing's customer outreach ability.
+          - Rapidly prototype and execute business ideas to determine project viability.
+          - Develop features for and maintain existing software services.
+          - Built data ingestion and reporting pipelines to offer the company a way to bring fractured data together and give the business a way to better understand the existing data we have.
       - layout: left
         title: Agdata
         sub_title: Software Design Engineer II
@@ -127,7 +83,7 @@ content:
         quote: >
           Leading Agricultural data-services company
         description: | # this will include new lines to allow paragraphs
-          - Create and maintain highly scalable microservice solutions in .net6.0
+          - Create and maintain highly scalable microservice solutions in .net
           - Work directly with business stakeholders and architects to modernize tech stack and deployment pipelines using Microsoft Azure services
           - Help build Data Platform to assist in creating single point of data-ingestion
           - Actively work on and maintain client-facing applications
@@ -159,15 +115,16 @@ content:
           - Actively and collaboratively worked with team engineers to connect moving pieces to create one cohesive and scalable platform.
       - layout: left
         title: We Do Tech
-        sub_title: Website and CMS Developer
-        caption: 2013 to 2017
+        sub_title: Contract Developer
+        caption: 2013 to ~2018
         quote: >
           Offering web-services to local businesses in the Charlotte market
         description: | # this will include new lines to allow paragraphs
-          Offered inexpensive web-services with the trade-off being that I was still in the process of learning a lot about web and application design.
-          
-          Applications built would be their own custom Content Management System - allowing the client to make changes to their site, directly from their site.
-          All built with their technical proficiency in mind.
+          - Offered low-cost web/application solutions to local area businesses.
+          - Utilized NopCommerce for solutions that required e-commerce.
+          - Worked directly with business owners to build a CMS platform that matched their level of technical ability.
+
+          Tech used:
           - C#
           - ASP.NET MVC (some legacy WebForms as well)
           - Entity Framework
@@ -180,7 +137,7 @@ content:
       - layout: left
         title: UNCC Charlotte
         sub_title: Full Stack Web Development (Certified)
-        caption: 08/2017 to 04/2018
+        caption: 08/2017 to 02/2018
         quote: >
           Full stack web development course on the MERN stack
         description: | # this will include new lines to allow paragraphs
@@ -195,7 +152,7 @@ content:
       - layout: left
         title: Brick Computer Science Institute
         sub_title: Programming - IT Track
-        caption: 01/2001 to 03/2002
+        caption: 01/2001 to 02/2002
         quote: >
           Certified Applications Developer
         description: | # this will include new lines to allow paragraphs
